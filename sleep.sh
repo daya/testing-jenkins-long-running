@@ -1,9 +1,15 @@
 #/bin/sh
 
-for i in {1..4..1}
-do
-  echo ">>>>>>> Id $i for 3 seconds\n";
-  sleep 3;
-  echo "woke up ID $i after 3 seconds `date '+%Y/%m/%d %H:%M:%S'`";
-done
+echo ">>>>>>> 1 for 3 seconds\n";
+sleep 3;
+echo "woke up 1 after 3 seconds `date '+%Y/%m/%d %H:%M:%S'`";
+echo ">>>>>>> 2 for 3 seconds\n";
+sleep 3;
+echo "woke up 2 after 3 seconds `date '+%Y/%m/%d %H:%M:%S'`";
+echo ">>>>>>> 3 for 3 seconds\n";
+sleep 3;
+echo "woke up 3 after 3 seconds `date '+%Y/%m/%d %H:%M:%S'`";
+echo ">>>>>>> 4 for 3 seconds\n";
+sleep 3;
+echo "woke up 4 after 3 seconds `date '+%Y/%m/%d %H:%M:%S'`";
 echo "sleeping for 150 seconds"; sleep 150; echo "woke up after 150 seconds"
